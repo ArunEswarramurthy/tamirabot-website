@@ -35,11 +35,11 @@ function Hero() {
   }, [])
 
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden bg-[#24125F] pt-[80px]">
+    <section className="relative pt-[120px] pb-20 md:pt-[150px] md:pb-28 overflow-hidden bg-[#24125F]">
       {/* Subtle background texture */}
       <div className="pointer-events-none absolute -bottom-32 -left-32 w-[600px] h-[600px] rounded-full opacity-10" style={{ background: '#F04F54' }} />
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 w-full py-16 md:py-20 lg:py-24">
+      <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
           {/* ── Left: Text ── */}
