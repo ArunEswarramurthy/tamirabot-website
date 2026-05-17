@@ -158,11 +158,11 @@ function Hero() {
               className="absolute -top-4 -left-4 bg-white rounded-2xl px-5 py-4 shadow-xl flex items-center gap-3"
             >
               <div className="w-9 h-9 rounded-full flex items-center justify-center shrink-0" style={{ background: 'rgba(240,79,84,0.12)' }}>
-                <span className="text-[#F04F54] font-bold text-xs">IEC</span>
+                <span className="text-[#F04F54] font-bold text-xs">OEM</span>
               </div>
               <div>
-                <p className="text-[11px] text-[#7D7D8C] leading-none mb-0.5">Certified Standard</p>
-                <p className="text-sm font-bold text-[#24125F] leading-none">62196 Compliant</p>
+                <p className="text-[11px] text-[#7D7D8C] leading-none mb-0.5">Bespoke Solutions</p>
+                <p className="text-sm font-bold text-[#24125F] leading-none">Custom Pin & Housing</p>
               </div>
             </motion.div>
 
@@ -174,11 +174,11 @@ function Hero() {
               className="absolute -bottom-4 -right-4 bg-white rounded-2xl px-5 py-4 shadow-xl flex items-center gap-3"
             >
               <div className="w-9 h-9 rounded-full flex items-center justify-center shrink-0" style={{ background: 'rgba(36,18,95,0.08)' }}>
-                <span className="text-[#24125F] font-bold text-xs">99%</span>
+                <span className="text-[#24125F] font-bold text-xs">BIS</span>
               </div>
               <div>
-                <p className="text-[11px] text-[#7D7D8C] leading-none mb-0.5">Quality Rating</p>
-                <p className="text-sm font-bold text-[#24125F] leading-none">Zero Defect</p>
+                <p className="text-[11px] text-[#7D7D8C] leading-none mb-0.5">Safety Standard</p>
+                <p className="text-sm font-bold text-[#24125F] leading-none">Govt. Approved Quality</p>
               </div>
             </motion.div>
           </motion.div>
