@@ -126,28 +126,7 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* ═══ FAQ ═══ */}
-      <section className="py-16 px-6" style={{ background: '#F7F7F7' }}>
-        <div className="max-w-3xl mx-auto">
-          <motion.div {...fadeUp()} className="text-center mb-14">
-            <span className="text-xs font-bold uppercase tracking-[0.2em]" style={{ color: '#F04F54' }}>FAQ</span>
-            <h2 className="text-3xl md:text-4xl font-bold mt-3" style={{ color: '#24125F' }}>Frequently Asked Questions</h2>
-          </motion.div>
-          <div className="space-y-4">
-            {[
-              { q: 'What is the minimum order quantity?', a: 'We cater to both small-scale and bulk orders. Contact us for specific MOQ details based on your product requirements.' },
-              { q: 'Do you offer custom engineering?', a: 'Yes, we provide bespoke connector solutions for OEMs including custom pin configurations, housing designs, and cable assemblies.' },
-              { q: 'What certifications do your products have?', a: 'Our products are IEC 62196 certified, ISO 9001 compliant, and meet BIS standards. We are also Startup India recognized and IIT Madras incubated.' },
-              { q: 'What is the typical lead time?', a: 'Standard products ship within 2-3 weeks. Custom engineering projects typically take 6-8 weeks depending on complexity.' },
-            ].map((faq, i) => (
-              <motion.div key={faq.q} {...fadeUp(i * 0.08)} className="bg-white rounded-2xl p-6 border" style={{ borderColor: '#E5E7EB' }}>
-                <h4 className="font-bold text-sm mb-2" style={{ color: '#24125F' }}>{faq.q}</h4>
-                <p className="text-sm leading-relaxed" style={{ color: '#7D7D8C' }}>{faq.a}</p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
+
     </>
   )
 }
