@@ -69,7 +69,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <label className="block text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: '#24125F' }}>Phone</label>
-                  <input type="tel" value={form.phone} onChange={(e) => setForm({ ...form, phone: e.target.value })} className="w-full px-4 py-3.5 rounded-xl border bg-white text-sm focus:outline-none transition-colors" style={{ borderColor: '#E5E7EB', color: '#24125F' }} placeholder="+91 98765 43210" />
+                  <input type="tel" value={form.phone} onChange={(e) => setForm({ ...form, phone: e.target.value })} className="w-full px-4 py-3.5 rounded-xl border bg-white text-sm focus:outline-none transition-colors" style={{ borderColor: '#E5E7EB', color: '#24125F' }} placeholder="+91 81486 82557" />
                 </div>
               </div>
               <div>
@@ -90,7 +90,7 @@ export default function Contact() {
               {[
                 { icon: '📍', title: 'Office Address', text: 'IIT Madras Research Park, Chennai, Tamil Nadu 600113, India' },
                 { icon: '✉️', title: 'Email', text: 'info@tamirabot.com' },
-                { icon: '📞', title: 'Phone', text: '+91 98765 43210' },
+                { icon: '📞', title: 'Phone', text: '+91 81486 82557' },
                 { icon: '🕐', title: 'Working Hours', text: 'Mon – Fri: 9:00 AM – 6:00 PM IST' },
               ].map((item) => (
                 <div key={item.title} className="flex gap-4">
